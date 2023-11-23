@@ -1,0 +1,4 @@
+.eggs
+.idea
+.pytest_cache
+aoc_2023.egg-info
