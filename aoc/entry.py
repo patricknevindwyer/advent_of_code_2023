@@ -121,7 +121,7 @@ def banner() -> None:
     ]
 
     # setup colors and apply to lines
-    brighten = [choice([Style.BRIGHT, Style.DIM, Style.NORMAL]) for _c in letters]
+    brighten = [choice([Style.BRIGHT, Style.NORMAL]) for _c in letters]
     colors = cycle(
         [
             Fore.LIGHTRED_EX,

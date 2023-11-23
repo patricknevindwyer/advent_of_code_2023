@@ -28,4 +28,8 @@ def part_02(filename: str = None) -> None:
     :param filename: Source file with problem data
     :return:
     """
-    print("Hi there!")
+    extra_func("Hi there!")
+
+
+def extra_func(msg: str) -> None:
+    print(msg)
